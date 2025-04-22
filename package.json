@@ -1,0 +1,19 @@
+{
+  "name": "base-contract-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "create-sample": "node create_sample_excel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "web3": "^1.10.0",
+    "xlsx": "^0.18.5"
+  }
+}
